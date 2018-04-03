@@ -1,11 +1,11 @@
-##Steps for Access and System Configuration for QISKit in IBM Q Account.
+# Steps for Access and System Configuration for QISKit in IBM Q Account.
 
-*Sign up 
+* Sign up 
   https://quantumexperience.ng.bluemix.net/qx/community
 
-*Go to My account and copy API token.
+* Go to My account and copy API token.
 
-*At least Python 3.5 or later is needed for using QISKit.
+* At least Python 3.5 or later is needed for using QISKit.
 
 * PIP Installation (a python package manager):
 ```
@@ -16,7 +16,7 @@
    git clone https://github.com/QISKit/qiskit-sdk-py
    cd qiskit-sdk-py
 ```
-*Configure your API token and QE credentials
+* Configure your API token and QE credentials
 ```
     Find Qconfig.py.defaut file and run command below
     cp Qconfig.py.default Qconfig.py
@@ -29,7 +29,7 @@
   ```
     conda create -y -n QISKitenv python=3 pip3 scipy
   ```	
-*Activate the environment
+* Activate the environment
  ``` 
     MacOS, Linux: source activate QISKitenv
     pip install -r requirements.txt
