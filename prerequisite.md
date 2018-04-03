@@ -26,9 +26,9 @@
   Save and close the file.
   
 * create conda environment for QISKit:
-  ```
+```
     conda create -y -n QISKitenv python=3 pip3 scipy
-  ```	
+```	
 * Activate the environment
  ``` 
     MacOS, Linux: source activate QISKitenv
