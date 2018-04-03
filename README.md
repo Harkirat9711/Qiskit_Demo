@@ -52,11 +52,22 @@ QISKit is a Python software development kit (SDK) that user can use to create th
 
 ## Getting started with QISKit SDK
 
-The qiskit installation can be done using the command in Terminal "pip install qiskit." The python 3.5 version is required. [17]
+The qiskit installation can be done using the command in Terminal 
+
+```
+pip install qiskit
+```
+The python 3.5 version is required. [17]
 
 ## basic Concept
 
-The simple concept of qiskit quantum program is an array of quantum circuits. The program workflow consists of 3 levels: build, compile, and Run. Build permits user to make exceptional quantum circuits that constitute the trouble you are fixing; compile permits you to rewrite them to run on distinct backends (simulators/actual chips of various quantum volumes, sizes, constancy, and so on.); and Run launches the roles. The data gather's after Run launches the roles. There are strategies for putting this data together, depending on the program. Doing so offers the solution to make a better program for the next instance. [9]
+The simple concept of qiskit quantum program is an array of quantum circuits. The program workflow consists of 3 levels: 
+
+* build,
+* compile, 
+* Run. 
+
+Build permits user to make exceptional quantum circuits that constitute the trouble you are fixing; compile permits you to rewrite them to run on distinct backends (simulators/actual chips of various quantum volumes, sizes, constancy, and so on.); and Run launches the roles. The data gather's after Run launches the roles. There are strategies for putting this data together, depending on the program. Doing so offers the solution to make a better program for the next instance. [9]
 
 ## Building your quantum program using Qiskit SDK.
 
